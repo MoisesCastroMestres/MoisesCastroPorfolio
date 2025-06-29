@@ -197,6 +197,7 @@ html {
     line-height: 25px;
     color: #565656;
     margin-bottom: 12px;
+    text-align: justify;
 }
 
 #sobremi .sobremi a {   /* Este es el boton de Descargar Curriculum */
@@ -287,6 +288,7 @@ html {
 #servicios .fila .servicio p {
     font-size: 14px;    
     line-height: 22px;
+    text-align: justify;
 }
 
 /* ******************************/
@@ -417,11 +419,14 @@ html {
 #portafolio .fila {
     display: flex;
     justify-content: space-between;
-    margin: 30px 0;
+    margin: 20px 0;
 }
 
 #portafolio .fila .proyecto {
-    max-width: 450px;
+    flex: 1 1 0; /* Permite que los proyectos se ajusten al espacio disponible */
+    min-width: 0;
+    max-width: none;
+    display: flex;
     border: 1px solid #000;
     margin: 0 10px;
     position: relative;
