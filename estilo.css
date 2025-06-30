@@ -41,7 +41,7 @@ html {
 
 #inicio .contenido header .contenido-header h1 { /* Color del Logotipo MC */
     text-align: center;
-    color: #ff5080;
+    color: #4EB8BD;
 }
 
 #inicio .contenido header .contenido-header nav ul { /* Posicion de Inicio, sobre mi, portafolio, contacto */
@@ -59,7 +59,7 @@ html {
 }
 
 #inicio .contenido header .contenido-header nav ul a:hover { /* Efecto de color al colocar el cursor encina de inicio, sobre mi, contacto */
-    color: #ff5080;
+    color: #4EB8BD;
 }
 
 #inicio .contenido header .contenido-header .redes a { /* Iconos redes sociales */
@@ -71,11 +71,11 @@ html {
 }
 
 #inicio .contenido header .contenido-header .redes a:hover { /* Efecto iconos redes sociales */
-    color: #ff5080;
+    color: #4EB8BD;
 }
 
 #inicio .contenido header .contenido-header .seleccionado {
-    color: #ff5080;
+    color: #4EB8BD;
 }
 
 #inicio .contenido .presentacion { /* Texto centrado en la pantalla de Moises Castro con explicacion */
@@ -104,7 +104,7 @@ html {
 
 #inicio .contenido .presentacion h2 span { /* Texto soy Moises Castro */
     font-size: 30px;
-    color: #ff5080;
+    color: #4EB8BD;
 }
 
 #inicio .contenido .presentacion .descripcion { /* Descripcion sobre mi */ 
@@ -127,7 +127,7 @@ html {
     transition: .5s;
 }
 #inicio .contenido .presentacion a:hover { /* Efecto cuando pasa el cursor por encima ir a portafolio*/
-    background-color: #ff5080;
+    background-color: #4EB8BD;
 }
 
 #inicio-nav {
@@ -181,7 +181,7 @@ html {
 }
 
 #sobremi .sobremi h2 span {
-    color: #ff5080;
+    color: #4EB8BD;
 }
 
 #sobremi .sobremi h3 {
@@ -212,7 +212,7 @@ html {
 }
 
 #sobremi .sobremi a:hover {
-    background-color: #ff5080;
+    background-color: #4EB8BD;
     color: #fff;
 }
 
@@ -296,7 +296,7 @@ html {
 /* ******************************/
 
 .contenedor-skills {
-    background: linear-gradient(#eb5a5acc, rgba(33, 16, 16, 8)), url("img/fondo-skills.jpg");
+    background: linear-gradient(#4EB8BD, rgba(33, 16, 16, 8)), url("img/fondo-skills.jpg");
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
@@ -449,7 +449,7 @@ html {
     position: absolute;
     left: 0;
     background-color: rgba(0, 0, 0, .8);
-    color: #ff5080;
+    color: #4EB8BD;
     width: 100%;
     padding: 10px;
     opacity: 0;
@@ -520,7 +520,7 @@ html {
 }
 
 #contacto .btn-enviar:hover {
-    background-color: #ff5080;
+    background-color: #4EB8BD;
     color: #fff;
 }
 
