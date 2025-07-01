@@ -10,6 +10,14 @@
     <title>Porfolio Moises Castro</title>
 </head>
 
+<script>
+fetch('https://api.countapi.xyz/hit/moisescastro/portfolio')
+  .then(res => res.json())
+  .then(data => {
+    document.getElementById('contador-visitas').textContent = "Visitas: " + data.value;
+  });
+</script>
+
 <body>
     <!-- SECCION INICIO -->
     <section id="inicio">
@@ -303,6 +311,7 @@
                 <a href="https://www.linkedin.com/in/mois%C3%A9s-castro-mestres-9527b035a/" target="_blank"><i class="fa-brands fa-linkedin"></i></>
                 <a href="https://github.com/MoisesCastroMestres" target="_blank"><i class="fa-brands fa-github"></i></a>
             </div>
+            <span id="contador-visitas" style="display:none"></span> <!-- Contador de visitas -->
     </footer>
 
     <script src="script.js"></script>
