@@ -309,11 +309,11 @@
     </footer>
 
     <script src="script.js"></script>
-    <script>
-fetch('https://api.countapi.xyz/hit/moisescastro/portfolio')
+<script>
+fetch('https://counterapi.dev/api/moisescastro-portfolio/visitas/increment')
   .then(res => res.json())
   .then(data => {
-    document.getElementById('contador-visitas').textContent = "Visitas: " + data.value;
+    document.getElementById('contador-visitas').textContent = "Visitas: " + data.count;
   });
 </script>
 
