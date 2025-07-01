@@ -10,13 +10,7 @@
     <title>Porfolio Moises Castro</title>
 </head>
 
-<script>
-fetch('https://api.countapi.xyz/hit/moisescastro/portfolio')
-  .then(res => res.json())
-  .then(data => {
-    document.getElementById('contador-visitas').textContent = "Visitas: " + data.value;
-  });
-</script>
+
 
 <body>
     <!-- SECCION INICIO -->
@@ -315,6 +309,13 @@ fetch('https://api.countapi.xyz/hit/moisescastro/portfolio')
     </footer>
 
     <script src="script.js"></script>
+    <script>
+fetch('https://api.countapi.xyz/hit/moisescastro/portfolio')
+  .then(res => res.json())
+  .then(data => {
+    document.getElementById('contador-visitas').textContent = "Visitas: " + data.value;
+  });
+</script>
 
 </body>
 
